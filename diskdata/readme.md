@@ -28,17 +28,15 @@ fault_time|string|fault time of disk
 tag|integer|ranging in [0,6], IDs of fault subtype 
  
 The dataset ranges from 2017-07-31 to 2018-12-31.And, more details about S.M.A.R.T information can be seen in https://en.wikipedia.org/wiki/S.M.A.R.T. <br> 
-
 <br> 
 Researchers can download data from https://tianchi.aliyun.com/dataset/dataDetail?dataId=70251 . <br> 
 <br> 
- 
 Note that we have utilized several common strategies to remove the sensitive information from our published dataset. 
 
 # Evaluation Metrics 
 According to our purpose of failure prediction that predicting whether each disk will fail or not within the next 30 days, we redefine the precision, recall, and F-score metrics. The complete definition of metrics is as follows:
 
-• Precision for P-window. We define the precision as the fraction of actually failed
+• ***Precision for P-window***. We define the precision as the fraction of actually failed
 disks being predicted overall (correctly and falsely) predicted failed disks. As our
 objective is to evaluate whether a failed disk being predicted is an actual failure
 within 30 days, we define the P-window as a fixed-size sliding window starting
@@ -49,19 +47,22 @@ slide out of the testing period. Figure 1 illustrates how we count true positive
 1st and 4th rows), we regard the failed disk as a correctly predicted one; otherwise
 (e.g., the 2nd and 3rd rows), we regard the disk as a falsely predicted one.
 
-$$Precision=\frac{n_{tpp}}{n_{pp}}$$
+<img src="https://latex.codecogs.com/svg.latex?\Large&space;Precision=\frac{n_{tpp}}{n_{pp}}" title="precision" />
 
-• Recall for R-window. We next define the recall as the fraction of actual failed disks being predicted overall actual failed disks. We define the R-window as a fixed-size
+• ***Recall for R-window***. We next define the recall as the fraction of actual failed disks being predicted overall actual failed disks. We define the R-window as a fixed-size
 window (not sliding window) from the starting date to the end date of the testing
 period with the length of 30 days in our case (i.e., from T to T + k - 1, where k
 is 30 days). Figure 2 shows how we count false positive, false negative, and true
 positive results. If a failed disk being predicted is not failed within the R-window
 (the 1st and 2nd rows), we regard the disk as a falsely predicted one; otherwise,
-we regard the failed disk as a correctly predicted one (the 4th and 5th rows). If an actual failed disk within the R-window is not predicted, we regard the failed disk
-as a missed one (i.e., false negative in the 3rd row).
-$$Recall=n_{tpr}/n_{pr}$$
-• F1-score. We follow the classical definition of F1-score as
-$$2\times\frac{Precision\times Recall}{Precision+Recall}$$
+we regard the failed disk as a correctly predicted one (the 4th and 5th rows). If an actual failed disk within the R-window is not predicted, we regard the failed disk as a missed one (i.e., false negative in the 3rd row).
+
+<img src="https://latex.codecogs.com/svg.latex?\Large&space;Recall=\frac{n_{tpr}}{{pr}}" title="recall" />
+
+• ***F1-score***. We follow the classical definition of F1-score as
+
+<img src="https://latex.codecogs.com/svg.latex?\Large&space;\frac{2*Precision*Recall}{Precision+Recall}" title="f1" />
+
 
 ### Future work 
 1. Publish the SMART data of solid-state drive in Alibaba Cloud’s data centers;
