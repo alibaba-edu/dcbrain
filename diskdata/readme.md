@@ -1,10 +1,10 @@
-### Introduction & Motivation
+## Introduction & Motivation
 
    In the large-scale data centers, the number of hard disk drive(HDD) and solid-state drive (SSD) has reached millions. According to  statistics, disk failures account for the largest proportion of all failures. The frequent occurrence of disk failures will affect the stability and reliability of the server and even the entire IT infrastructure, which have a negative impact on business SLAs (Service-Level Agreement). Thus, prediction of disk failures has been an important topic for IT or big data company. <br> 
    <br> 
    However, the topic has several challenging data characteristics, such as high data noise, extremely imbalanced classification, and time-varying features. And, since stability overwhelms everything, the effectiveness and stability of prediction model is very crucial.  Therefore, our team will publish the dataset of over 200 thousands hard disk drives in Alibaba Cloud’s data centers. We hope that more researchers can join us and study how to solve these problems together.
    
-### Description of datasets
+## Description of datasets
 The dataset has two files:
 1) Table 1: smartlog_data_*.csv is the daily SMART data of disks that has 514 columns. The columns are defined as follows:
 
@@ -33,7 +33,7 @@ Researchers can download data from https://tianchi.aliyun.com/dataset/dataDetail
 <br> 
 Note that we have utilized several common strategies to remove the sensitive information from our published dataset. 
 
-# Evaluation Metrics 
+## Evaluation Metrics 
 According to our purpose of failure prediction that predicting whether each disk will fail or not within the next 30 days, we redefine the precision, recall, and F-score metrics. The complete definition of metrics is as follows:
 
 • ***Precision for P-window***. We define the precision as the fraction of actually failed
@@ -64,7 +64,7 @@ we regard the failed disk as a correctly predicted one (the 4th and 5th rows). I
 <img src="https://latex.codecogs.com/svg.latex?\Large&space;\frac{2*Precision*Recall}{Precision+Recall}" title="f1" />
 
 
-### Future work 
+## Future work 
 1. Publish the SMART data of solid-state drive in Alibaba Cloud’s data centers;
 2. Introduce our team work about disk failure predictions;
 3. Share and List the paper work based on our published data;
