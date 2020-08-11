@@ -78,3 +78,11 @@ we regard the failed disk as a correctly predicted one (the 4th and 5th rows). I
    Editors (view affiliations)
 
    https://link.springer.com/book/10.1007/978-981-15-7749-9
+   ```
+   @article{he2020large,
+     title={Large-Scale Disk Failure Prediction},
+     author={He, Cheng and Feng, Mengling and Lee, Patrick PC and Wang, Pinghui and Han, Shujie and Liu, Yi},
+     year={2020},
+     publisher={Springer}
+   }
+   ```
