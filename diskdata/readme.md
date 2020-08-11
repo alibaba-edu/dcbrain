@@ -71,12 +71,10 @@ we regard the failed disk as a correctly predicted one (the 4th and 5th rows). I
 
 
 ## Contribution
-1. Large-Scale Disk Failure Prediction
+1. Large-Scale Disk Failure Prediction(book). Cheng He, Mengling Feng, Patrick P. C. Lee, Pinghui Wang, Shujie Han, Yi Liu
 
    PAKDD 2020 Competition and Workshop, AI Ops 2020, February 7 – May 15, 2020, Revised Selected Papers
 
    Editors (view affiliations)
-
-   Cheng HeMengling FengPatrick P. C. LeePinghui WangShujie HanYi Liu
 
    https://link.springer.com/book/10.1007/978-981-15-7749-9
