@@ -69,6 +69,7 @@ Proceedings of the 19th USENIX Conference on File and Storage Technologies (FAST
   ```
 @inproceedings {han2021,
 title = {An In-Depth Study of Correlated Failures in Production SSD-Based Data Centers},
+author = {Han, Shujie and Lee, Patrick PC and Xu, Fan and Liu, Yi and He, Cheng and Liu, Jiongzhou}
 booktitle = {19th {USENIX} Conference on File and Storage Technologies ({FAST} 21)},
 year = {2021},
 url = {https://www.usenix.org/conference/fast21/presentation/han},
