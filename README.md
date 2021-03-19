@@ -23,4 +23,4 @@ We release three datasets that are collected at Alibaba:
     Fan Xu, Shujie Han, Patrick P. C. Lee, Yi Liu, Cheng He, and Jiongzhou Liu.  
     Proceedings of the 51st IEEE/IFIP International Conference on Dependable Systems and Networks (DSN 2021), June 2021.  
 
-  - See details about the [relationships](/https://github.com/alibaba-edu/dcbrain/ssd_smart_logs/readme.md#relationship) between two datasets of SSDs.
+  - See details about the [relationships](https://github.com/alibaba-edu/dcbrain/tree/master/ssd_smart_logs/readme.md#relationship) between two datasets of SSDs.
