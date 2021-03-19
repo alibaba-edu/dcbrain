@@ -9,7 +9,7 @@
 The dataset includes daily SMART data and failures of six different SSD models ranging from 20180101 to 20191231. 
 
 The dataset has two kinds of files:
-1) Table 1: ***yyyymmdd.csv*** (unzipped from ***smartlog2018ssd.zip***(4.65GB) and ***smartlog2019ssd.zip***(4.69GB)) is the daily SMART data of SSDs that has 105 columns. The date ***yyyymmdd*** in file name represents the sampling time of SMART data. The columns are defined as follows:
+1) Table 1: ***yyyymmdd.csv*** (unzipped from ***smartlog2018ssd.zip***(4.33GB) and ***smartlog2019ssd.zip***(4.37GB)) is the daily SMART data of SSDs that has 105 columns. The date ***yyyymmdd*** in file name represents the sampling time of SMART data. The columns are defined as follows:
 
 | Field   | Type    | Description                         |
 | ------- | ------- | ----------------------------------- |
@@ -19,7 +19,7 @@ The dataset has two kinds of files:
 | n_i     | integer | normalized SMART data of SMART ID=i |
 | r_i     | integer | raw SMART data of SMART ID=i        |
 
-2) Table 2: ***ssd_failure_label.csv*** (unzipped from ***ssd_failure_label.csv.zip***(144KB)) is data of fault SSD labels that has 3 columns. The columns are defined as follows: 
+2) Table 2: ***ssd_failure_label.csv*** (unzipped from ***ssd_failure_label.csv.zip***(140KB)) is data of fault SSD labels that has 3 columns. The columns are defined as follows: 
 
 | Field        | Type    | Description             |
 | ------------ | ------- | ----------------------- |
