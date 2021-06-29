@@ -31,5 +31,7 @@ We release the following prototypes:
 
   - Publication: 
     **"Automated Intelligent Healing in Cloud-Scale Data Centers."**
+	
 	Rui Li, Zhinan Cheng, Patrick P. C. Lee, Pinghui Wang, Yi Qiang, Lin Lan, Cheng He, Jinlong Lu, Mian Wang, Xinquan Ding.
-    Proceedings of the 40th International Symposium on Reliable Distributed Systems (SRDS 2021), September 2021.  
+    
+	Proceedings of the 40th International Symposium on Reliable Distributed Systems (SRDS 2021), September 2021.  
