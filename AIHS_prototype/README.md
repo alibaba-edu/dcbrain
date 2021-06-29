@@ -84,3 +84,16 @@ Following we show how to run the source code:
 + Sample output
 
 	+ {'hostname': '12x8dj02', 'timestamp': 12345, 'action': ['RI']}
+
+## Citation
+
+To acknowledge the use of our prototype in publications, please cite the following paper:
+
+```
+@InProceedings{xu2021dsn,
+   title = {Automated Intelligent Healing in Cloud-Scale Data Centers.},
+   Booktitle = {Proc. of SRDS},
+   author = {Li, Rui and Cheng, Zhinan and Lee, Patrick P. C. and Wang, Pinghui and Qiang, Yi and Lan, Lin and He, Cheng and Lu, Jinlong and Wang, Mian and Ding, Xinquan},
+   year = {2021} 
+}
+```

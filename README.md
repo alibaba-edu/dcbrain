@@ -24,3 +24,12 @@ We release three datasets that are collected at Alibaba:
     Proceedings of the 51st IEEE/IFIP International Conference on Dependable Systems and Networks (DSN 2021), June 2021.  
 
   - See details about the [relationships](./ssd_smart_logs/readme.md#relationship) between two datasets of SSDs.
+
+We release the following prototypes:
+
+- AIHS Prototype (`AIHS_prototype/`): A prototype for automated intelligent healing in cloud-scale data centers.
+
+  - Publication: 
+    **"Automated Intelligent Healing in Cloud-Scale Data Centers."** 
+	Rui Li, Zhinan Cheng, Patrick P. C. Lee, Pinghui Wang, Yi Qiang, Lin Lan, Cheng He, Jinlong Lu, Mian Wang, Xinquan Ding.
+    Proceedings of the 40th International Symposium on Reliable Distributed Systems (SRDS 2021), September 2021.  
