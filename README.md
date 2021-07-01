@@ -27,7 +27,7 @@ We release three datasets that are collected at Alibaba:
 
 We release the following prototypes:
 
-- AIHS Prototype (`AIHS_prototype/`): A prototype for automated intelligent healing in cloud-scale data centers.
+- AIHS Prototype (`AIHS_prototype/`): A prototype for automated intelligent healing in Alibaba Cloud's data centers.
 
   - Publication: 
     **"Automated Intelligent Healing in Cloud-Scale Data Centers."**  
