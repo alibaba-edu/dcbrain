@@ -2,7 +2,9 @@
 
 ## Overview
 
-AIHS is an machine-learning-based self-healing prototype that provides automated intelligent healing for cloud-scale data centers. This source code showcases the complete workflow of AIHS and its usages.
+AIHS is an machine-learning-based self-healing system that provides automated intelligent healing for millions of servers in Alibaba Cloud's data centers. AIHS is designed and implemented by the cloud resource intelligence team and the cluster management-stable team of Alibaba Cloud.
+
+This source code showcases a prototype of the complete workflow of AIHS and its usages.
 
 
 
